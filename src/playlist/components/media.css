@@ -1,0 +1,29 @@
+.Media {
+	cursor: pointer;
+	margin:   10px;
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	vertical-align: top;
+	border-radius: 2px;
+	box-shadow: 0 0.5px 5px #999;
+	transition: ease-out 150ms;
+}
+.Media-image {
+	display: block;
+	border-radius: 2px 2px 0 0;
+	width: 240px;
+	height: 140px;
+}
+.Media-title {
+	font-size: 20px;
+	margin: 5px 0 5px 5px;
+}
+.Media-author {	
+	color: #00a4da;
+	margin: 5px 0 5px 5px;
+}
+
+.Media:hover {
+	box-shadow: 0 1px 5px #333;
+}
